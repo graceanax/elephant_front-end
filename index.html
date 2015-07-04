@@ -10,48 +10,48 @@
 	    	<meta name="msapplication-TileImage" content="logo.png">
 		<meta name="msapplication-TileColor" content="#FFFFF">
 		<!--$style-->
-
-
+        <link rel="stylesheet" href="css/bootstrap.css" media="all"/>
+        <link rel="stylesheet" href="css/font-awesome.min.css" media="all"/>
 		<!--$script-->
 	</head>		
 	<body>
 		<!--$header-->
-        <header>
+        <header class="container-fluid">
             <!--$header navigation-->
-            <section class="header__navigation">
+            <section class="header__navigation row navbar navbar-inverse">
                 <!--$logo-->
-                <figure class="logo__elephant">
-                    <img src="http://lorempixel.com/200/200" alt="logo elephant"/>
+                <figure class="logo__elephant col-xs-1 col-sm-1 col-md-1 col-lg-1">
+                    <img src="http://lorempixel.com/50/50" alt="logo elephant"/>
                 </figure>
                 <!--$main menu-->
-                <nav class="main__menu-top">
-                    <ul>
-                        <li>Inicio</li>
-                        <li>Cursos</li>
-                        <li>Blog</li>
-                        <li>¿Cómo funciona?></li>
-                        <li>Sobre Elephant</li>
-                    </ul>
+                <nav class="main__menu-top col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default">Inicio</button>
+                        <button type="button" class="btn btn-default">Cursos</button>
+                        <button type="button" class="btn btn-default">Blog</button>
+                        <button type="button" class="btn btn-default">¿Cómo funciona?</button>
+                        <button type="button" class="btn btn-default">Sobre elephant</button>
+                    </div>
                 </nav>
                 <!--$register/login menu-->
-                <nav class="main__menu-register">
-                    <ul>
-                        <li> <a href="#entrar" title="Entrar">Entrar</a> </li>
-                        <li> <a href="#Registrarse" title="Registrarse">Registrarse</a> </li>
-                    </ul>
+                <nav class="main__menu-register col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-default">Entrar</button>
+                      <button type="button" class="btn btn-default">Registrarse</button>
+                    </div>
                 </nav>
                 <!--$Search-->
-                <section>
+                <section class="main__search col-xs-2 col-sm-2 col-md-2 col-lg-2">
                     <input type="search" placeholder="Search" name="search"/>
                 </section>
             </section>
             <!--$Banner-->
-            <section class="header__banner-wrapper">
+            <section class="header__banner-wrapper row">
                 <!--$background banner-->
-                <figure class="header__banner-background">
+                <figure class="header__banner-background col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <img src="http://lorempixel.com/700/300" alt="banner image"/>
                 </figure>
-                <section class="header__banner-content">
+                <section class="header__banner-content col-xs-5 col-sm-5 col-md-5 col-lg-5">
                     <h2>Aprede a tu ritmo</h2>
                     <p>lorem</p>
                     <a href="#registrarse" title="registrarse">Crear una cuenta Gratuita</a>
@@ -59,80 +59,84 @@
             </section>
         </header>
         <!--$main-->
-        <section class="main__wrapper">
+        <section class="main__wrapper container-fluid">
             <!--$Courses-->
-            <section class="main__courses">
-                <ul>
-                    <li>
+            <section class="main__courses row">
+                <ul class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <li class="thumbnail col-xs-3 col-sm-3 col-md-3 col-lg-3">
                         <figure>
                             <img src="http://lorempixel.com/200/200" title="curso1"/>
                         </figure>
-                        <div>
+                        <div class="caption">
                             <h4>Introducción a Linux</h4>
                         </div>
                     </li>
-                    <li>
+                    <li class="thumbnail col-xs-3 col-sm-3 col-md-3 col-lg-3">
                         <figure>
                             <img src="http://lorempixel.com/200/200" title="curso1"/>
                         </figure>
-                        <div>
+                        <div class="caption">
                             <h4>Introducción a Linux</h4>
                         </div>
                     </li>
-                    <li>
+                    <li class="thumbnail col-xs-3 col-sm-3 col-md-3 col-lg-3">
                         <figure>
                             <img src="http://lorempixel.com/200/200" title="curso1"/>
                         </figure>
-                        <div>
+                        <div class="caption">
                             <h4>Introducción a Linux</h4>
                         </div>
                     </li>
-                    <li>
+                    <li class="thumbnail col-xs-3 col-sm-3 col-md-3 col-lg-3">
                         <figure>
                             <img src="http://lorempixel.com/200/200" title="curso1"/>
                         </figure>
-                        <div>
+                        <div class="caption">
                             <h4>Introducción a Linux</h4>
                         </div>
                     </li>
                 </ul>
-                <a href="#mas_cursos" title="Más cursos">Más cursos</a>
+                <button type="button" class="btn btn-default">Más cursos</button>
             </section>
             <!--$Description-->
-            <section class="main__description">
-                <article class="main__description-item">
+            <section class="main__description row">
+                <article class="main__description-item col-xs-6 col-sm-6 col-md-6 col-lg-6">
                     <i class="icon"></i>
                     <h3>Desde tu casa, 100% Online</h3>
                     <p>lorem</p>
                 </article>
                 <span class="main__description-bar"></span>
-                <article class="main__description-item">
+                <article class="main__description-item col-xs-6 col-sm-6 col-md-6 col-lg-6">
                     <i class="icon"></i>
                     <h3>Desde tu casa, 100% Online</h3>
                     <p>lorem</p>
                 </article>
             </section>
             <!--$Profesores-->
-            <section class="main__profesores">
-                <h3>Aprende de los profesionales</h3>
-                <p>Nuestro equipo</p>
+            <section class="main__profesores row">
+                <article class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                    <h3>Aprende de los profesionales</h3>
+                    <p>Nuestro equipo</p>
+                </article>
             </section>
             <!--$Inscríbete-->
-            <section class="main__item-last">
-                <h4>Lorem</h4>
-                <figure>
-                    <img src="http://loremipsum.com/400/300">
-                </figure>
-                <a href="#Registrarse" title="Registrarse">Crear una cuenta Gratuita</a>
+            <section class="main__item-last row">
+                <article class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                    <h4>Lorem</h4>
+                    <figure>
+                        <img src="http://lorempixel.com/400/300">
+                    </figure>
+                    <button type="button" class="btn btn-default">Crear una cuenta Gratuita</button>
+                </article>
             </section>    
         </section>
         <!--$Footer-->
-        <footer class="footer">
-            <nav>
-                <ul>
-                    <li>¿Quiénes Somos?</li>
-                    <li>Preguntas Frecuentes</li>
-                    <li>Contacto</li>
+        <footer class="footer container-fluid row navbar navbar-inverse">
+            <nav class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <ul class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                    <li><a href="#" title="¿Quiénes Somos?">¿Quiénes Somos?</a></li>
+                    <li><a href="#" title="Preguntas Frecuentes">Preguntas Frecuentes</a></li>
+                    <li><a href="#" title="Contacto">Contacto</a></li>
                 </ul>
             </nav>
         </footer>
