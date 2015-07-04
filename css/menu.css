@@ -1,0 +1,15 @@
+.header__navigation {
+  margin: 0em;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .header__navigation i {
+    color: white;
+    font-size: 2em; }
+
+.main__search {
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+/*# sourceMappingURL=menu.css.map */

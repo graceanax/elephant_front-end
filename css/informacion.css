@@ -1,0 +1,18 @@
+.main__description-item div {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em; }
+  .main__description-item div i {
+    font-size: 1.9em;
+    margin: 0;
+    padding: 0; }
+  .main__description-item div h3 {
+    margin: 0;
+    padding: 0; }
+
+.main__description p {
+  padding: 1em; }
+
+.main__description {
+  margin-top: 1em; }
+
+/*# sourceMappingURL=informacion.css.map */

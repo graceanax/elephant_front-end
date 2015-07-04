@@ -1,0 +1,24 @@
+.header__banner-wrapper {
+  position: relative;
+  height: 20em;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.header__banner-background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0; }
+
+.header__banner-content {
+  background: rgba(0, 0, 0, 0.6);
+  color: #CCCCCC;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+  .header__banner-content h2 {
+    font-weight: bold; }
+
+/*# sourceMappingURL=banner.css.map */

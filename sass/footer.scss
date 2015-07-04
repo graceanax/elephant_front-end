@@ -1,0 +1,26 @@
+//***********
+//==$footer==
+//***********
+.footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: flex-end;
+    nav{
+        display: flex;
+        align-items: center;
+    }
+  ul{
+      
+      margin: 0;
+      padding: 0;
+      li{
+          display: inline-flex;
+          padding-right: 1em;
+          a{
+              color:whitesmoke;
+          }
+      }
+  }
+    
+}

@@ -1,0 +1,121 @@
+#main {
+  width: 5em; }
+
+.header__navigation {
+  margin: 0em;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .header__navigation i {
+    color: white;
+    font-size: 2em; }
+
+.main__search {
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+.header__banner-wrapper {
+  position: relative;
+  height: 20em;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.header__banner-background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0; }
+
+.header__banner-content {
+  background: rgba(0, 0, 0, 0.6);
+  color: #CCCCCC;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+  .header__banner-content h2 {
+    font-weight: bold; }
+
+.main__courses {
+  text-align: center; }
+  .main__courses .btn {
+    margin: auto; }
+
+.main__description-item div {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em; }
+  .main__description-item div i {
+    font-size: 1.9em;
+    margin: 0;
+    padding: 0; }
+  .main__description-item div h3 {
+    margin: 0;
+    padding: 0; }
+
+.main__description p {
+  padding: 1em; }
+
+.main__description {
+  margin-top: 1em; }
+
+.main__profesores {
+  position: relative;
+  height: 15em;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; }
+
+.main__profesores-background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0; }
+
+.main__profesores article {
+  background: rgba(0, 0, 0, 0.6);
+  color: #CCCCCC;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end; }
+  .footer nav {
+    display: flex;
+    align-items: center; }
+  .footer ul {
+    margin: 0;
+    padding: 0; }
+    .footer ul li {
+      display: inline-flex;
+      padding-right: 1em; }
+      .footer ul li a {
+        color: whitesmoke; }
+
+.container-fluid {
+  margin: 0;
+  padding: 0; }
+
+body {
+  min-height: 100vh; }
+
+.main__item-last {
+  position: relative;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15em;
+  background: #cccccc;
+  text-align: center; }
+  .main__item-last .btn {
+    margin: 0.5em; }
+
+/*# sourceMappingURL=style.css.map */

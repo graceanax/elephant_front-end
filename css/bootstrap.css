@@ -92,6 +92,9 @@ svg:not(:root) {
 figure {
   margin: 1em 40px;
 }
+    figure img{
+        width: 100%;
+    }
 hr {
   height: 0;
   -webkit-box-sizing: content-box;
@@ -1618,7 +1621,6 @@ pre code {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
-    border: 1px solid gray;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left;

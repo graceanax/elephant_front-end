@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end; }
+  .footer nav {
+    display: flex;
+    align-items: center; }
+  .footer ul {
+    margin: 0;
+    padding: 0; }
+    .footer ul li {
+      display: inline-flex;
+      padding-right: 1em; }
+      .footer ul li a {
+        color: whitesmoke; }
+
+/*# sourceMappingURL=footer.css.map */

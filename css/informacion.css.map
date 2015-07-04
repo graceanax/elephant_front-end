@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,2BAA2B;EACvB,WAAW,EAAE,KAAK;EAClB,cAAc,EAAE,KAAK;EAErB,6BAAC;IACG,SAAS,EAAE,KAAK;IAChB,MAAM,EAAE,CAAC;IACT,OAAO,EAAE,CAAC;EAEd,8BAAE;IACE,MAAM,EAAE,CAAC;IACT,OAAO,EAAE,CAAC;;AAGlB,oBAAoB;EAChB,OAAO,EAAC,GAAG;;AAEf,kBAAkB;EACd,UAAU,EAAE,GAAG",
+"sources": ["../sass/informacion.scss"],
+"names": [],
+"file": "informacion.css"
+}

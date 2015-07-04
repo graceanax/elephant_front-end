@@ -1,0 +1,25 @@
+//*********
+//==$team==
+//*********
+.main__profesores{
+    position: relative;
+    height: 15em;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+    .main__profesores-background{
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 0;
+    }
+    .main__profesores article{
+        background:rgba(0,0,0,0.6);
+        color:#CCCCCC;
+        text-align: center;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
