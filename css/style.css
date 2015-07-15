@@ -1,27 +1,66 @@
 #main {
   width: 5em; }
 
+.main__menu-top, .main__menu-icon {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 .header__navigation {
   margin: 0em;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  height: 6em; }
   .header__navigation i {
-    color: white;
+    color: #D5D4D4;
     font-size: 2em; }
 
 .main__search {
   margin: 0;
   padding: 0;
-  text-align: center; }
+  text-align: center;
+  display: inline-block; }
+  .main__search i {
+    color: #D5D4D4;
+    font-size: 1em; }
+
+.main__menu-icon {
+  display: inline-block; }
+  .main__menu-icon .btn {
+    display: none; }
+
+.main__menu-top nav {
+  display: none; }
+
+@media (min-width: 992px) {
+  .main__menu-icon .btn {
+    display: inline-block; }
+  .main__menu-icon i {
+    display: none; } }
+@media (min-width: 1200px) {
+  .main__menu-icon {
+    display: none; }
+
+  .main__menu-top nav {
+    display: inline-block; } }
+.background {
+  height: 100%; }
 
 .header__banner-wrapper {
   position: relative;
-  height: 20em;
+  height: 100vh;
   margin: 0;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  overflow: hidden; }
+  .header__banner-wrapper figure {
+    height: 100%; }
 
 .header__banner-background {
   position: absolute;
@@ -30,39 +69,83 @@
   padding: 0; }
 
 .header__banner-content {
-  background: rgba(0, 0, 0, 0.6);
+  /* background:rgba(0,0,0,0.6);*/
   color: #CCCCCC;
   text-align: center;
   padding-top: 1em;
-  padding-bottom: 1em; }
+  padding-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  z-index: 3; }
   .header__banner-content h2 {
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+    flex-direction: row; }
+  .header__banner-content p {
+    font-size: 1.7rem;
+    flex-direction: row; }
+  .header__banner-content .btn {
+    margin: auto;
+    flex-direction: row;
+    font-size: 1.3rem; }
+
+.filter-background {
+  height: 100%;
+  width: 100%;
+  background: rgba(5, 7, 21, 0.8);
+  position: absolute;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2; }
 
 .main__courses {
-  text-align: center; }
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap; }
   .main__courses .btn {
-    margin: auto; }
-
-.main__description-item div {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em; }
-  .main__description-item div i {
-    font-size: 1.9em;
-    margin: 0;
-    padding: 0; }
-  .main__description-item div h3 {
-    margin: 0;
-    padding: 0; }
-
-.main__description p {
-  padding: 1em; }
+    margin: auto;
+    font-size: 1.3rem; }
+  .main__courses h4 {
+    font-size: 1.4rem; }
 
 .main__description {
-  margin-top: 1em; }
+  margin-top: 1em;
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .main__description p {
+    padding: 1em;
+    font-size: 1.3rem; }
+
+.main__description-item {
+  background: rgba(0, 0, 0, 0.6); }
+  .main__description-item div {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em; }
+  .main__description-item i {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+  .main__description-item h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 1.7rem; }
 
 .main__profesores {
   position: relative;
-  height: 15em;
+  min-height: 100vh;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -104,7 +187,8 @@
   padding: 0; }
 
 body {
-  min-height: 100vh; }
+  min-height: 100vh;
+  background: #cccccc; }
 
 .main__item-last {
   position: relative;
@@ -112,10 +196,25 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 15em;
-  background: #cccccc;
+  min-height: 100vh;
+  background: #eeeeee;
   text-align: center; }
   .main__item-last .btn {
     margin: 0.5em; }
+
+.btn-principal {
+  background: rgba(5, 129, 144, 0.8);
+  padding: 0.5em;
+  font-size: 1.3em;
+  box-shadow: 2px 4px 2px black; }
+
+.icon__menu {
+  padding: 0.4em;
+  border: 1px solid black;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%; }
+
+.icon__menu.fa-question {
+  padding: 0.4em 0.6em; }
 
 /*# sourceMappingURL=style.css.map */

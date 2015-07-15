@@ -1,6 +1,14 @@
 .main__courses {
-  text-align: center; }
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap; }
   .main__courses .btn {
-    margin: auto; }
+    margin: auto;
+    font-size: 1.3rem; }
+  .main__courses h4 {
+    font-size: 1.4rem; }
 
 /*# sourceMappingURL=cursos.css.map */

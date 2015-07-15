@@ -10,8 +10,8 @@
     padding: 0;
 }
 body{
-
     min-height: 100vh;
+    background:#cccccc;
 }
 
 //*****************
@@ -23,11 +23,28 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15em;
-    background:#cccccc;
+    min-height: 100vh;
+    background:#eeeeee;
     text-align: center;
     .btn{
         margin: 0.5em;
     }
 }
     
+
+//botones
+.btn-principal{
+    background: rgba(5, 129, 144, 0.8);
+    padding: 0.5em;
+    font-size: 1.3em;
+    box-shadow: 2px 4px 2px black;
+}
+.icon__menu{
+    padding: 0.4em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%;
+}
+.icon__menu.fa-question{
+    padding: 0.4em 0.6em;
+}

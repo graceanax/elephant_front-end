@@ -3,8 +3,17 @@
 //***********
 
 .main__courses{
+    min-height: 100vh;
     text-align: center;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    flex-wrap: wrap;
     .btn{
         margin: auto;
+        font-size: 1.3rem;
+    }
+    h4{
+        font-size: 1.4rem;
     }
 }

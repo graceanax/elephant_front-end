@@ -19,46 +19,71 @@
 		<!--$header-->
         <header class="container-fluid">
             <!--$header navigation-->
-            <section class="header__navigation row navbar navbar-inverse">
+            <section class="header__navigation row navbar">
                 <!--$logo-->
                 <div class="logo__elephant col-xs-1 col-sm-1 col-md-1 col-lg-1">
                     <i class="fa fa-qq"></i>
                 </div>
-                <!--$main menu-->
-                <nav class="main__menu-top col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-default">Inicio</button>
-                        <button type="button" class="btn btn-default">Cursos</button>
-                        <button type="button" class="btn btn-default">Blog</button>
-                        <button type="button" class="btn btn-default">¿Cómo funciona?</button>
-                        <button type="button" class="btn btn-default">Sobre elephant</button>
+                <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
+                    <!--$main menu-->
+                    <nav class="main__menu-top col-xs-1 col-sm-1 col-md-5 col-lg-5">
+                        <div class="col-xs-12 col-sm-12 col-md-12  main__menu-icon">
+                            <button type="button" class=" col-xs-12 col-sm-12 col-md-12 btn btn-default">Menú</button>
+                            <i class="col-xs-12 col-sm-12 col-md-12 fa fa-bars"></i>
+                        </div>
+                        <nav class="btn-group">
+                            <ul>
+                                <li class="btn">
+                                    <a href="#inicio" title="Inicio"><i class="icon__menu fa fa-home"></i></a> 
+                                </li>
+                                <li class="btn">
+                                    <a href="#inicio" title="Cursos"><i class="icon__menu fa fa-code"></i></a> 
+                                </li>
+                                <li class="btn">
+                                    <a href="#inicio" title="Blog"><i class="icon__menu fa fa-laptop"></i></a> 
+                                </li>
+                                <li class="btn">
+                                    <a href="#inicio" title="¿Cómo funciona?"><i class="icon__menu fa fa-question"></i></a> 
+                                </li>
+                                <li class="btn">
+                                    <a href="#inicio" title="Sobre elephant"><i class="icon__menu fa fa-users"></i></a> 
+                                </li>
+                            </ul>
+                        </nav>
+                    </nav>
+                    
+                    <!--$register/login menu-->
+                    <div class="main__menu-register col-xs-6 col-sm-6 col-md-4 col-lg-3">
+                            <ul class="btn-group col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <li class="btn btn-principal col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                    <a href="#inicio" title="Entrar">Entrar</a> 
+                                </li>
+                                <li class="btn btn-principal col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                    <a href="#inicio" title="Registrarse">Registrarse</a> 
+                                </li>
+                            </ul>
                     </div>
-                </nav>
-                <!--$register/login menu-->
-                <nav class="main__menu-register col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-default">Entrar</button>
-                      <button type="button" class="btn btn-default">Registrarse</button>
-                    </div>
-                </nav>
-                <!--$Search-->
-                <section class="main__search col-xs-2 col-sm-2 col-md-2 col-lg-2">
-                    <input type="search" placeholder="Search" name="search"/>
-                </section>
+                    <!--$Search-->
+                    <section class="main__search col-xs-3 col-sm-3 col-md-2 col-lg-3">
+                        
+                        <input class="input_search" type="search" placeholder="Search" name="search" />
+                        <i class="fa fa-search"></i>
+                    </section>
+                </div>
             </section>
             <!--$Banner-->
             <section class="header__banner-wrapper row">
                 <!--$background banner-->
-                <figure class="header__banner-background col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <img src="http://lorempixel.com/700/300" alt="banner image"/>
+                <span class="filter-background"></span>
+                <figure class="header__banner-background background col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    
                 </figure>
-                <section class="header__banner-content col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                <section class="header__banner-content col-xs-11 col-sm-9 col-md-7 col-lg-5">
                     <h2>Aprede a tu ritmo</h2>
                     <p>
-                    Es un hecho establecido hace demasiado tiempo que un lector se distraerá con                     el contenido del texto de un sitio mientras que mira su diseño. El punto                         de usar Lorem Ipsum es que tiene una distribución.
-                    
+                    Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución.
                     </p>
-                    <button type="button" class="btn btn-default">Crear una cuenta Gratuita</button>
+                    <a href="#cuenta" title="Crear una cuenta gratuita" class="btn-principal col-xs-10 col-sm-10 col-md-6 col-lg-6">Crear una cuenta Gratuita</a>
                 </section>
             </section>
         </header>
@@ -67,7 +92,7 @@
             <!--$Courses-->
             <section class="main__courses row">
                 <ul class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <li class="thumbnail col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <li class="thumbnail col-xs-12 col-sm-6 col-md-4 col-lg-3">
                         <figure>
                             <img src="http://lorempixel.com/200/200" title="curso1"/>
                         </figure>
@@ -75,7 +100,7 @@
                             <h4>Introducción a Linux</h4>
                         </div>
                     </li>
-                    <li class="thumbnail col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <li class="thumbnail col-xs-12 col-sm-6 col-md-4 col-lg-3">
                         <figure>
                             <img src="http://lorempixel.com/200/200" title="curso1"/>
                         </figure>
@@ -83,7 +108,7 @@
                             <h4>Introducción a Linux</h4>
                         </div>
                     </li>
-                    <li class="thumbnail col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <li class="thumbnail col-xs-12 col-sm-6 col-md-4 col-lg-3">
                         <figure>
                             <img src="http://lorempixel.com/200/200" title="curso1"/>
                         </figure>
@@ -91,7 +116,7 @@
                             <h4>Introducción a Linux</h4>
                         </div>
                     </li>
-                    <li class="thumbnail col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <li class="thumbnail col-xs-12 col-sm-6 col-md-4 col-lg-3">
                         <figure>
                             <img src="http://lorempixel.com/200/200" title="curso1"/>
                         </figure>
@@ -100,11 +125,14 @@
                         </div>
                     </li>
                 </ul>
-                <button type="button" class="btn btn-default">Más cursos</button>
+                <button type="button" class="btn btn-default col-xs-11 col-sm-8 col-md-5 col-lg-3">Más cursos</button>
             </section>
             <!--$Description-->
             <section class="main__description row">
-                <article class="main__description-item col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <figure class="header__banner-background background col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <img src="http://lorempixel.com/700/300" alt="banner image"/>
+                </figure>
+                <article class="main__description-item col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <i class="fa fa-coffee col-xs-1 col-sm-1 col-md-1 col-lg-1"></i>
                         <h3 class="col-xs-11 col-sm-11 col-md-11 col-lg-11">Desde tu casa, 100% Online</h3>
@@ -112,7 +140,7 @@
                     <p>Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles.</p>
                 </article>
                 <span class="main__description-bar"></span>
-                <article class="main__description-item col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <article class="main__description-item col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <i class="fa fa-street-view col-xs-1 col-sm-1 col-md-1 col-lg-1"></i>
                         <h3 class="col-xs-11 col-sm-11 col-md-11 col-lg-11">Aprende donde y cuando tu quieras</h3>
@@ -122,27 +150,24 @@
             </section>
             <!--$Profesores-->
             <section class="main__profesores row">
-                <figure class="main__profesores-background col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <img src="http://lorempixel.com/600/300" alt="banner image"/>
-                </figure>
-                <article class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                <article class="col-xs-11 col-sm-9 col-md-7 col-lg-5">
                     <h3>Aprende de los profesionales</h3>
                     <p>Es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor</p>
                 </article>
             </section>
             <!--$Inscríbete-->
             <section class="main__item-last row">
-                <article class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                <article class="col-xs-11 col-sm-9 col-md-7 col-lg-5">
                     <h4>Es un hecho establecido hace demasiado tiempo</h4>
                         <img src="http://lorempixel.com/400/100">
-                    <button type="button" class="btn btn-default">Crear una cuenta Gratuita</button>
+                    <a href="#cuenta" title="Crear una cuenta gratuita" class="btn-principal col-xs-10 col-sm-10 col-md-6 col-lg-6">Crear una cuenta Gratuita</a>
                 </article>
             </section>    
         </section>
         <!--$Footer-->
         <footer class="footer container-fluid row navbar navbar-inverse">
             <nav class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <ul class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                <ul class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                     <li><a href="#" title="¿Quiénes Somos?">¿Quiénes Somos?</a></li>
                     <li><a href="#" title="Preguntas Frecuentes">Preguntas Frecuentes</a></li>
                     <li><a href="#" title="Contacto">Contacto</a></li>

@@ -2,23 +2,35 @@
 //==$Informacion==
 //****************
 
-.main__description-item div{
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    
-    i{
-        font-size: 1.9em; 
-        margin: 0;
-        padding: 0;
-    }
-    h3{
-        margin: 0;
-        padding: 0;
-    }
-}
-.main__description p{
-    padding:1em;   
-}
 .main__description{
     margin-top: 1em;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        padding:1em;   
+        font-size: 1.3rem;  
+    }
 }
+    .main__description-item {
+        background: rgba(0, 0, 0, 0.6);
+        div{
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+        }
+        i{
+            font-size: 2rem; 
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h3{
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+            font-size: 1.7rem;
+        }
+    }
