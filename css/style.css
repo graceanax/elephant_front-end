@@ -217,4 +217,22 @@ body {
 .icon__menu.fa-question {
   padding: 0.4em 0.6em; }
 
+.full-image img {
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+.full-image {
+  margin: 0;
+  padding: 0; }
+
+.no-list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.no-list li {
+  padding: 0;
+  display: inline-block; }
+
 /*# sourceMappingURL=style.css.map */
