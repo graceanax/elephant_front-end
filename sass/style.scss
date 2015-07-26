@@ -5,6 +5,12 @@
 @import "informacion.scss";
 @import "team.scss";
 @import "footer.scss";
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 .container-fluid{
     margin: 0;
     padding: 0;
