@@ -10,6 +10,7 @@
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
 }
 .container-fluid{
     margin: 0;
@@ -41,16 +42,25 @@ body{
 //botones
 .btn-principal{
     background: rgba(5, 129, 144, 0.8);
-    padding: 0.5em;
+    padding: 0.2em;
     font-size: 1.3em;
-    box-shadow: 2px 4px 2px black;
+    a{
+        color:white;
+    }
 }
 .icon__menu{
     padding: 0.4em;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 50%;
-    background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0%;
+    background: #181818;
+    font-size: 1.8em !important;
 }
+.icon__menu:hover{
+    background: #004266;
+}
+
+
+
 .icon__menu.fa-question{
     padding: 0.4em 0.6em;
 }

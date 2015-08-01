@@ -1,4 +1,4 @@
-.main__menu-top, .main__menu-icon {
+.main__menu-top, .main__menu-icon, ul, li, div {
   margin: 0;
   padding: 0;
   display: flex;
@@ -6,16 +6,18 @@
   align-items: center; }
 
 .header__navigation {
+  background: #031218;
   margin: 0em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border-radius: 0;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  height: 6em; }
+  height: 4em;
+  text-align: center; }
   .header__navigation i {
     color: #D5D4D4;
     font-size: 2em; }
+  .header__navigation .logo__elephant {
+    height: 100%; }
 
 .main__search {
   margin: 0;
@@ -31,8 +33,10 @@
   .main__menu-icon .btn {
     display: none; }
 
-.main__menu-top nav {
-  display: none; }
+.main__menu-top {
+  height: 100%; }
+  .main__menu-top nav {
+    display: none; }
 
 @media (min-width: 992px) {
   .main__menu-icon .btn {
