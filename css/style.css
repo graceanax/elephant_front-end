@@ -1,7 +1,7 @@
 #main {
   width: 5em; }
 
-.main__menu-top, .main__menu-icon, ul, li, div {
+.main__menu-top, .main__menu-icon, .main__menu-top ul {
   margin: 0;
   padding: 0;
   display: flex;
